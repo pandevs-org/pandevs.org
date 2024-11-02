@@ -21,7 +21,7 @@
 
 <body class="d-flex justify-content-center align-items-end" style="background-color: #FAD986;">
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+    <svg class="arrow-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
         <!-- Background decorative circle -->
         <!-- <circle cx="400" cy="200" r="180" fill="none" stroke="#B8860B" stroke-width="4" stroke-dasharray="4,4"/> -->
 
@@ -60,7 +60,6 @@
                 <path d="M200 290 L180 320 L220 320 Z" fill="#DEB887" />
             </g>
 
-
         </g>
 
     </svg>
@@ -83,14 +82,14 @@
                         <span class="hamburger-inner"></span>
                     </span>
                 </button>
-    
+
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link" aria-label="home link" aria-current="page" href="#home">Home</a>
-                        <a class="nav-link" aria-label="get started link" href="./docs/latest/getting-started/index.html">Our Quest</a>
-                        <a class="nav-link" aria-label="examples link" href="#examples">The Pandava Code</a>
-                        <a class="nav-link" aria-label="contribute link" href="#contribute">Pandevs</a>
-                        <a class="nav-link" aria-label="contribute link" href="#contribute">Connect with     Us</a>
+                        <a class="nav-link" aria-label="home link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-label="get started link" href="#">Our Quest</a>
+                        <a class="nav-link" aria-label="examples link" href="#">The Pandava Code</a>
+                        <a class="nav-link" aria-label="contribute link" href="#">Pandevs</a>
+                        <a class="nav-link" aria-label="contribute link" href="#">Connect with Us</a>
                         <a id="nav-item" target="_blank" aria-label="Fork" data-balloon-pos="down"
                             href="https://github.com/BorisEdison/Honey-Badger"
                             class="d-flex align-items-center justify-content-start">
@@ -105,8 +104,21 @@
         </nav>
 
 
+        <div class="home d-flex justify-content-center align-items-end">
+
+            <div class="scroll-down-arrow-div mb-5">
+                <a href="#demo">
+                    <div class="scroll-down-arrow">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
     </div>
-   
+
 
     <!-- gsap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
@@ -120,11 +132,13 @@
     <!-- iconify -->
     <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
 
+    <!-- iconify -->
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
 
     <script>
-        setTimeout(function(){
+        setTimeout(function () {
             document.querySelector('.main').classList.remove("d-none");
-            console.log("hello")
+            document.querySelector('.arrow-svg').classList.add('d-none')
         }, 5000);
 
         const t1 = gsap.timeline({ default: { ease: 'power4.out', duration: 5 } })
@@ -139,34 +153,34 @@
         // })
 
         t1
-        .from('g', {
-            xPercent: -50,
-            ease: 'elastic.out(1, 0.5)'
-        }, "-=.7")
-        .to('svg', {
-            duration: 0.7,
-            rotation: 1080,
-        })
-        .to('#arrow', {
-            duration: 0.7,
-            yPercent: 30
-        })
-        .to('#arrow', {
-            yPercent: -1000,
-            ease: 'back.in(1)',
-            duration: 2,
-        }, "-=0.1")
-        .to('#bow', {
-            yPercent: 1000,
-            ease: 'back.out(1)',
-            duration: 1,
-        }, "-=.1")
-        .to('.reveal', {
-            scaleY: 0,
-            transformOrigin: 'top',
-            duration: 2,
-            ease: 'power4,inOut'
-        },"-=1.7")
+            .from('g', {
+                xPercent: -50,
+                ease: 'elastic.out(1, 0.5)'
+            }, "-=.7")
+            .to('svg', {
+                duration: 0.7,
+                rotation: 1080,
+            })
+            .to('#arrow', {
+                duration: 0.7,
+                yPercent: 30
+            })
+            .to('#arrow', {
+                yPercent: -1000,
+                ease: 'back.in(1)',
+                duration: 2,
+            }, "-=0.1")
+            .to('#bow', {
+                yPercent: 1000,
+                ease: 'back.out(1)',
+                duration: 1,
+            }, "-=.1")
+            .to('.reveal', {
+                scaleY: 0,
+                transformOrigin: 'top',
+                duration: 2,
+                ease: 'power4,inOut'
+            }, "-=1.7")
 
 
     </script>

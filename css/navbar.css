@@ -24,7 +24,7 @@ nav {
 }
 
 .navbar-unscrolled {
-	padding: 24px 48px 8px;
+	padding: 48px 64px 8px !important;
 }
 
 .navbar-toggler:focus {
@@ -34,21 +34,24 @@ nav {
 .nav-link {
 	white-space: nowrap;
     font-family: 'saman';
-	color: white;
+	color: #F68D33 !important;
+    margin-left: 18px;
+    margin-right: 18px;
 	font-size: var(--fs-200) !important;
+
 	position: relative;
 }
 
 .nav-link.active {
-	color: var(--clr-accent-800) !important;
+	color: #F9D453 !important;
 }
 
 .nav-link:hover {
-	color: var(--clr-accent-800) !important;
+	color: #F9D453 !important;
 }
 
 .nav-link:focus {
-	color: var(--clr-accent-800) !important;
+	color: #F9D453 !important;
 }
 
 
@@ -72,16 +75,17 @@ nav {
 /* fork btn */
 .fork-btn {
 	appearance: none;
-	background-color: var(--clr-accent-700);
+	background-color: #F68D33;
 	border: none;
 	border-radius: 7px;
 	box-sizing: border-box;
-	color: var(--clr-accent-300);
+	color: white;
 	cursor: pointer;
 	display: inline-block;
 	font-size: 16px;
 	line-height: normal;
 	margin: 4px;
+    margin-left: 18px;
 	height: 35px;
 	width: 50px;
 	outline: none;

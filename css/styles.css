@@ -20,8 +20,8 @@ body {
     background-size: cover;
     background-position: center;
 }
-svg {
-    width: 25vw;
+.arrow-svg {
+    width: 20vw;
     overflow: visible
 }
 /* 
@@ -39,4 +39,46 @@ g {
     z-index: -1;
     background-color: #4f2e25;
     opacity: 0.9;
+}
+
+.home {
+    height: 100vh;
+	background-color: var(--clr-accent-300);
+	background-image: url(../assets/images/1234.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.scroll-down-arrow span {
+	width: 20px;
+	height: 20px;
+  display: block;
+	border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	transform: rotate(45deg);
+	margin: -10px;
+	animation: animate 2s infinite;
+}
+
+.scroll-down-arrow span:nth-child(2) {
+	animation-delay: -0.2s;
+}
+
+.scroll-down-arrow span:nth-child(3) {
+	animation-delay: -0.4s;
+}
+
+@keyframes animate {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+		transform: rotate(45deg) translate(10px, 10px);
+	}
+	100% {
+		opacity: 0;
+	}
 }
