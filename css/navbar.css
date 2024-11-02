@@ -11,6 +11,8 @@ nav {
 }
 .navbar-brand {
 	color: var(--clr-accent-800);
+    font-family: 'saman';
+    color: white;
 }
 .logo {
 	box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5) !important;
@@ -31,7 +33,8 @@ nav {
 
 .nav-link {
 	white-space: nowrap;
-	color: var(--clr-accent-700) !important;
+    font-family: 'saman';
+	color: white;
 	font-size: var(--fs-200) !important;
 	position: relative;
 }

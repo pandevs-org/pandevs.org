@@ -3,9 +3,19 @@ a{
     text-decoration: none !important;
 }
 
+@font-face {
+    font-family: 'saman';
+    src: URL('../assets/fonts/SAMAN___.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'yatra one';
+    src: URL('../assets/fonts/YatraOne-Regular.ttf') format('truetype');
+  }
+
 body {
 	background-color: var(--clr-accent-300);
-	background-image: url(../assets/1234.png);
+	background-image: url(../assets/images/1234.png);
 	background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
