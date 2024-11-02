@@ -5,13 +5,13 @@ a{
 
 body {
 	background-color: var(--clr-accent-300);
-	background-image: url(1.png);
+	background-image: url(../assets/1234.png);
 	background-repeat: no-repeat;
-    background-size: 100vw auto;
+    background-size: cover;
     background-position: center;
 }
 svg {
-    width: 15vw;
+    width: 25vw;
     overflow: visible
 }
 /* 
@@ -27,5 +27,6 @@ g {
     top: -20;
     left: 0;
     z-index: -1;
-    background-color: #FAD986;
+    background-color: #4f2e25;
+    opacity: 0.9;
 }
