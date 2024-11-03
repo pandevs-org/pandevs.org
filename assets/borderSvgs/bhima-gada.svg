@@ -1,0 +1,79 @@
+<svg style="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+                    <!-- Boundary circle -->
+                    <circle cx="400" cy="200" r="180" fill="none" stroke="#B8860B" stroke-width="6" stroke-dasharray="4,4"/>
+                    
+                    <!-- Main Gada, perfectly centered -->
+                    <g transform="translate(400,200) scale(0.6) translate(-200,-390)">
+                        <!-- Main Gada head (spiked ball) -->
+                        <g id="gada-head">
+                            <!-- Base sphere -->
+                            <circle cx="200" cy="200" r="80" fill="#8B4513"/>
+                            <circle cx="200" cy="200" r="75" fill="#A0522D"/>
+                            
+                            <!-- Decorative circular patterns -->
+                            <circle cx="200" cy="200" r="65" fill="none" stroke="#DAA520" stroke-width="2"/>
+                            <circle cx="200" cy="200" r="55" fill="none" stroke="#DAA520" stroke-width="2"/>
+                            
+                            <!-- Spikes -->
+                            <g id="spikes">
+                                <!-- Top spikes -->
+                                <path d="M200 100 L180 140 L220 140 Z" fill="#8B4513"/>
+                                <path d="M160 120 L140 160 L180 160 Z" fill="#8B4513"/>
+                                <path d="M240 120 L220 160 L260 160 Z" fill="#8B4513"/>
+                                
+                                <!-- Bottom spikes -->
+                                <path d="M200 300 L180 260 L220 260 Z" fill="#8B4513"/>
+                                <path d="M160 280 L140 240 L180 240 Z" fill="#8B4513"/>
+                                <path d="M240 280 L220 240 L260 240 Z" fill="#8B4513"/>
+                                
+                                <!-- Left spikes -->
+                                <path d="M100 200 L140 180 L140 220 Z" fill="#8B4513"/>
+                                <path d="M120 160 L160 140 L160 180 Z" fill="#8B4513"/>
+                                <path d="M120 240 L160 220 L160 260 Z" fill="#8B4513"/>
+                                
+                                <!-- Right spikes -->
+                                <path d="M300 200 L260 180 L260 220 Z" fill="#8B4513"/>
+                                <path d="M280 160 L240 140 L240 180 Z" fill="#8B4513"/>
+                                <path d="M280 240 L240 220 L240 260 Z" fill="#8B4513"/>
+                            </g>
+                        </g>
+                        
+                        <!-- Handle (danda) -->
+                        <g id="handle">
+                            <!-- Main shaft -->
+                            <rect x="190" y="280" width="20" height="350" fill="#8B4513"/>
+                            <rect x="195" y="280" width="10" height="350" fill="#A0522D"/>
+                            
+                            <!-- Decorative rings -->
+                            <g id="handle-rings">
+                                <g transform="translate(0,320)">
+                                    <rect x="185" y="0" width="30" height="10" fill="#DAA520"/>
+                                    <path d="M185 0 Q200 5 215 0" fill="none" stroke="#B8860B" stroke-width="1"/>
+                                </g>
+                                
+                                <g transform="translate(0,400)">
+                                    <rect x="185" y="0" width="30" height="10" fill="#DAA520"/>
+                                    <path d="M185 0 Q200 5 215 0" fill="none" stroke="#B8860B" stroke-width="1"/>
+                                </g>
+                                
+                                <g transform="translate(0,480)">
+                                    <rect x="185" y="0" width="30" height="10" fill="#DAA520"/>
+                                    <path d="M185 0 Q200 5 215 0" fill="none" stroke="#B8860B" stroke-width="1"/>
+                                </g>
+                            </g>
+                        </g>
+                        
+                        <!-- Base grip -->
+                        <g id="base-grip">
+                            <path d="M185 630 L215 630 L210 660 L190 660 Z" fill="#DAA520"/>
+                            <rect x="190" y="660" width="20" height="20" fill="#B8860B"/>
+                            <circle cx="200" cy="670" r="8" fill="#8B4513"/>
+                        </g>
+                        
+                        <!-- Sanskrit-inspired decorative elements -->
+                        <g id="decorative-elements">
+                            <path d="M200 300 Q220 310 200 320" fill="none" stroke="#DAA520" stroke-width="2"/>
+                            <path d="M200 340 Q180 350 200 360" fill="none" stroke="#DAA520" stroke-width="2"/>
+                        </g>
+                    </g>
+                </svg>

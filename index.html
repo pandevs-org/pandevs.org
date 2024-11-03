@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/team.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <!-- Bootstrap cdn-->
@@ -19,56 +21,17 @@
 
 </head>
 
-<body class="d-flex justify-content-center align-items-end" style="background-color: #FAD986;">
-
-    <svg class="arrow-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
-        <!-- Background decorative circle -->
-        <!-- <circle cx="400" cy="200" r="180" fill="none" stroke="#B8860B" stroke-width="4" stroke-dasharray="4,4"/> -->
-
-        <g>
-
-            <!-- Bow -->
-            <g id="bow">
-                <path d="M80 320 Q200 200 320 320" fill="none" stroke="#8B4513" stroke-width="8" />
-                <path d="M85 315 Q205 205 315 315" fill="none" stroke="#A0522D" stroke-width="4" />
-
-                <!-- Decorative patterns on bow -->
-                <path d="M100 300 Q150 250 200 300" fill="none" stroke="#DAA520" stroke-width="3" />
-                <path d="M200 300 Q250 250 300 300" fill="none" stroke="#DAA520" stroke-width="3" />
-
-                <!-- Sanskrit-inspired decorative elements -->
-                <path d="M170 270 C175 260, 175 250, 170 240" fill="none" stroke="#B8860B" stroke-width="3" />
-                <path d="M230 270 C225 260, 225 250, 230 240" fill="none" stroke="#B8860B" stroke-width="3" />
-
-                <!-- Small decorative circles -->
-                <circle cx="85" cy="320" r="9" fill="#DAA520" />
-                <circle cx="315" cy="320" r="9" fill="#DAA520" />
-            </g>
+<body class="" style="background-color: #5A382C;">
 
 
-            <!-- Bowstring -->
-            <!-- <path id="bowstring" d="M300 85 L300 315" fill="none" stroke="#FFF8DC" stroke-width="5" /> -->
 
-            <g id="arrow">
-                <!-- Arrow shaft -->
-                <line x1="200" y1="300" x2="200" y2="70" stroke="#CD853F" stroke-width="7" />
+    <!-- <div class="reveal">
 
-                <!-- Arrow head -->
-                <path d="M200 60 L180 105 L200 90 L220 105 Z" fill="#8B4513" />
+    </div> -->
 
-                <!-- Arrow fletching -->
-                <path d="M200 290 L180 320 L220 320 Z" fill="#DEB887" />
-            </g>
+    <div class="main">
 
-        </g>
-
-    </svg>
-
-    <div class="reveal">
-
-    </div>
-
-    <div class="main d-none">
+        <!-- navbar -->
         <nav class="navbar navbar-expand-lg fixed-top navbar-unscrolled">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
@@ -103,8 +66,8 @@
             </div>
         </nav>
 
-
-        <div class="home d-flex justify-content-center align-items-end">
+        <!-- home section -->
+        <div id="home" class="home d-flex justify-content-center align-items-end">
 
             <div class="scroll-down-arrow-div mb-5">
                 <a href="#demo">
@@ -117,11 +80,319 @@
             </div>
         </div>
 
+
+        <section id="project" class="section section-primary d-flex justify-content-center align-items-center mb-5">
+
+            <div class="content content-primary">
+                <h3 class="section-heading text-center mt-3" style="font-family: 'saman'; font-size: 2.5rem; color: F68D33;">Pandevs</h3>
+
+                <div class="row">
+
+                <!-- boris -->
+                <div class="col-lg-2 col-md-12 mt-5 p-0 col-sm-12  d-flex justify-content-center">
+                    <div class="project-outer-div d-flex justify-content-center">
+                        <div class="card-body project-div dharma-chakra-border" data-aos="fade-up" data-aos-delay="200">
+
+                            <figure class="project-figure  d-flex justify-content-center">
+                                <img src="./assets/pandevsImages/boris.png" class="project-img" alt="MPT project">
+                            </figure>
+
+                            <div class="row pt-2">
+                                <div class="col-12 d-flex justify-content-center align-items-center">
+                                    <h4 class="project-heading mb-0">
+                                        Yudhishthira
+                                    </h4>
+                                </div>
+
+                            </div>
+                            <div class="row mt-4">
+
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+
+                                    <a href="https://github.com/BorisEdison/MPT" target="_blank"
+                                        aria-label="Source Code" data-balloon-pos="up">
+                                        <span class="iconify iconify-redirect-icon" data-icon="ant-design:github-filled"
+                                            data-width="25" data-height="25"></span>
+                                    </a>
+                                </div>
+
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+
+                                    <a href="https://mpt.borisedison.in/" target="_blank" aria-label="Live Project"
+                                        data-balloon-pos="up">
+                                        <span class="iconify iconify-redirect-icon" data-icon="charm:link-external"
+                                            data-width="25" data-height="25"></span>
+                                    </a>
+                                </div>
+
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+
+                                    <a href="https://github.com/BorisEdison/MPT" target="_blank"
+                                        aria-label="Source Code" data-balloon-pos="up">
+                                        <span class="iconify iconify-redirect-icon" data-icon="ant-design:github-filled"
+                                            data-width="25" data-height="25"></span>
+                                    </a>
+                                </div>
+
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+
+                                    <a href="https://mpt.borisedison.in/" target="_blank" aria-label="Live Project"
+                                        data-balloon-pos="up">
+                                        <span class="iconify iconify-redirect-icon" data-icon="charm:link-external"
+                                            data-width="25" data-height="25"></span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-12 mt-5 p-0 col-sm-12  d-flex justify-content-center">
+                    <div class="project-outer-div d-flex justify-content-center">
+                        <div class="card-body project-div sword-border" data-aos="fade-up" data-aos-delay="200">
+
+                            <figure class="project-figure  d-flex justify-content-center">
+                                <img src="./assets/pandevsImages/boris.png" class="project-img" alt="MPT project">
+                            </figure>
+
+                            <div class="row pt-2">
+                                <div class="col-12 d-flex justify-content-center align-items-center">
+                                    <h4 class="project-heading mb-0">
+                                        Yudhishthira
+                                    </h4>
+                                </div>
+
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+
+                                    <a href="https://github.com/BorisEdison/MPT" target="_blank"
+                                        aria-label="Source Code" data-balloon-pos="up">
+                                        <span class="iconify iconify-redirect-icon" data-icon="ant-design:github-filled"
+                                            data-width="25" data-height="25"></span>
+                                    </a>
+                                </div>
+
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+
+                                    <a href="https://mpt.borisedison.in/" target="_blank" aria-label="Live Project"
+                                        data-balloon-pos="up">
+                                        <span class="iconify iconify-redirect-icon" data-icon="charm:link-external"
+                                            data-width="25" data-height="25"></span>
+                                    </a>
+                                </div>
+
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+
+                                    <a href="https://github.com/BorisEdison/MPT" target="_blank"
+                                        aria-label="Source Code" data-balloon-pos="up">
+                                        <span class="iconify iconify-redirect-icon" data-icon="ant-design:github-filled"
+                                            data-width="25" data-height="25"></span>
+                                    </a>
+                                </div>
+
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+
+                                    <a href="https://mpt.borisedison.in/" target="_blank" aria-label="Live Project"
+                                        data-balloon-pos="up">
+                                        <span class="iconify iconify-redirect-icon" data-icon="charm:link-external"
+                                            data-width="25" data-height="25"></span>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-12 mt-5 p-0 col-sm-12  d-flex justify-content-center">
+                    <div class="project-outer-div d-flex justify-content-center">
+                        <div class="card-body project-div" data-aos="fade-up" data-aos-delay="200">
+
+                            <figure class="project-figure d-flex justify-content-center">
+                                <img src="./assets/pandevsImages/boris.png" class="project-img" alt="MPT project">
+                            </figure>
+
+                            <div class="row pt-2">
+                                <div class="col-12 d-flex justify-content-center align-items-center">
+                                    <h4 class="project-heading mb-0">
+                                        Boris Edison
+                                    </h4>
+                                </div>
+
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+
+                                    <a href="https://github.com/BorisEdison/MPT" target="_blank"
+                                        aria-label="Source Code" data-balloon-pos="up">
+                                        <span class="iconify iconify-redirect-icon" data-icon="ant-design:github-filled"
+                                            data-width="25" data-height="25"></span>
+                                    </a>
+                                </div>
+
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+
+                                    <a href="https://mpt.borisedison.in/" target="_blank" aria-label="Live Project"
+                                        data-balloon-pos="up">
+                                        <span class="iconify iconify-redirect-icon" data-icon="charm:link-external"
+                                            data-width="25" data-height="25"></span>
+                                    </a>
+                                </div>
+
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+
+                                    <a href="https://github.com/BorisEdison/MPT" target="_blank"
+                                        aria-label="Source Code" data-balloon-pos="up">
+                                        <span class="iconify iconify-redirect-icon" data-icon="ant-design:github-filled"
+                                            data-width="25" data-height="25"></span>
+                                    </a>
+                                </div>
+
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+
+                                    <a href="https://mpt.borisedison.in/" target="_blank" aria-label="Live Project"
+                                        data-balloon-pos="up">
+                                        <span class="iconify iconify-redirect-icon" data-icon="charm:link-external"
+                                            data-width="25" data-height="25"></span>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-12 mt-5 p-0 col-sm-12  d-flex justify-content-center">
+                    <div class="project-outer-div d-flex justify-content-center">
+                        <div class="card-body project-div" data-aos="fade-up" data-aos-delay="200">
+
+                            <figure class="project-figure d-flex justify-content-center">
+                                <img src="./assets/pandevsImages/boris.png" class="project-img" alt="MPT project">
+                            </figure>
+
+                            <div class="row pt-2">
+                                <div class="col-12 d-flex justify-content-center align-items-center">
+                                    <h4 class="project-heading mb-0">
+                                        Boris Edison
+                                    </h4>
+                                </div>
+
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+
+                                    <a href="https://github.com/BorisEdison/MPT" target="_blank"
+                                        aria-label="Source Code" data-balloon-pos="up">
+                                        <span class="iconify iconify-redirect-icon" data-icon="ant-design:github-filled"
+                                            data-width="25" data-height="25"></span>
+                                    </a>
+                                </div>
+
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+
+                                    <a href="https://mpt.borisedison.in/" target="_blank" aria-label="Live Project"
+                                        data-balloon-pos="up">
+                                        <span class="iconify iconify-redirect-icon" data-icon="charm:link-external"
+                                            data-width="25" data-height="25"></span>
+                                    </a>
+                                </div>
+
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+
+                                    <a href="https://github.com/BorisEdison/MPT" target="_blank"
+                                        aria-label="Source Code" data-balloon-pos="up">
+                                        <span class="iconify iconify-redirect-icon" data-icon="ant-design:github-filled"
+                                            data-width="25" data-height="25"></span>
+                                    </a>
+                                </div>
+
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+
+                                    <a href="https://mpt.borisedison.in/" target="_blank" aria-label="Live Project"
+                                        data-balloon-pos="up">
+                                        <span class="iconify iconify-redirect-icon" data-icon="charm:link-external"
+                                            data-width="25" data-height="25"></span>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-12 mt-5 p-0 col-sm-12  d-flex justify-content-center">
+                    <div class="project-outer-div d-flex justify-content-center">
+                        <div class="card-body project-div" data-aos="fade-up" data-aos-delay="200">
+
+                            <figure class="project-figure d-flex justify-content-center">
+                                <img src="./assets/pandevsImages/boris.png" class="project-img" alt="MPT project">
+                            </figure>
+
+                            <div class="row pt-2">
+                                <div class="col-12 d-flex justify-content-center align-items-center">
+                                    <h4 class="project-heading mb-0">
+                                        Boris Edison
+                                    </h4>
+                                </div>
+
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+
+                                    <a href="https://github.com/BorisEdison/MPT" target="_blank"
+                                        aria-label="Source Code" data-balloon-pos="up">
+                                        <span class="iconify iconify-redirect-icon" data-icon="ant-design:github-filled"
+                                            data-width="25" data-height="25"></span>
+                                    </a>
+                                </div>
+
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+
+                                    <a href="https://mpt.borisedison.in/" target="_blank" aria-label="Live Project"
+                                        data-balloon-pos="up">
+                                        <span class="iconify iconify-redirect-icon" data-icon="charm:link-external"
+                                            data-width="25" data-height="25"></span>
+                                    </a>
+                                </div>
+
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+
+                                    <a href="https://github.com/BorisEdison/MPT" target="_blank"
+                                        aria-label="Source Code" data-balloon-pos="up">
+                                        <span class="iconify iconify-redirect-icon" data-icon="ant-design:github-filled"
+                                            data-width="25" data-height="25"></span>
+                                    </a>
+                                </div>
+
+                                <div class="col-3 d-flex justify-content-center align-items-center">
+
+                                    <a href="https://mpt.borisedison.in/" target="_blank" aria-label="Live Project"
+                                        data-balloon-pos="up">
+                                        <span class="iconify iconify-redirect-icon" data-icon="charm:link-external"
+                                            data-width="25" data-height="25"></span>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                                
+            </div>
+
+            </div>
+
+        </section>
+
     </div>
 
 
     <!-- gsap -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1https://file+.vscode-resource.vscode-cdn.net/Users/borisedison/Desktop/pandevs.org-website/assets/borderSvgs/dharma-chakra.png?version%3D17306294806772.5/gsap.min.js"
         integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
@@ -130,60 +401,12 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!-- iconify -->
-    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+    <script
+        src="https://code.iconify.design/2https://file+.vscode-resource.vscode-cdn.net/Users/borisedison/Desktop/pandevs.org-website/assets/borderSvgs/dharma-chakra.png?version%3D1730629480677/2.1.2/iconify.min.js"></script>
 
     <!-- iconify -->
     <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
 
-    <script>
-        setTimeout(function () {
-            document.querySelector('.main').classList.remove("d-none");
-            document.querySelector('.arrow-svg').classList.add('d-none')
-        }, 5000);
-
-        const t1 = gsap.timeline({ default: { ease: 'power4.out', duration: 5 } })
-
-        gsap.set('g', {
-            autoApha: 1
-        })
-
-        // gsap.to('svg', {
-        //     scale: 1.2,
-        //     duration: 4
-        // })
-
-        t1
-            .from('g', {
-                xPercent: -50,
-                ease: 'elastic.out(1, 0.5)'
-            }, "-=.7")
-            .to('svg', {
-                duration: 0.7,
-                rotation: 1080,
-            })
-            .to('#arrow', {
-                duration: 0.7,
-                yPercent: 30
-            })
-            .to('#arrow', {
-                yPercent: -1000,
-                ease: 'back.in(1)',
-                duration: 2,
-            }, "-=0.1")
-            .to('#bow', {
-                yPercent: 1000,
-                ease: 'back.out(1)',
-                duration: 1,
-            }, "-=.1")
-            .to('.reveal', {
-                scaleY: 0,
-                transformOrigin: 'top',
-                duration: 2,
-                ease: 'power4,inOut'
-            }, "-=1.7")
-
-
-    </script>
 </body>
 
 </html>
