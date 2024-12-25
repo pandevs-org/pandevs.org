@@ -1,0 +1,33 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <!-- Background decorative circle -->
+  <circle cx="400" cy="200" r="180" fill="none" stroke="#B8860B" stroke-width="2" stroke-dasharray="4,4"/>
+  
+  <!-- Bow -->
+  <path d="M300 80 Q400 200 300 320" fill="none" stroke="#8B4513" stroke-width="8"/>
+  <path d="M305 85 Q405 205 305 315" fill="none" stroke="#A0522D" stroke-width="4"/>
+  
+  <!-- Bowstring -->
+  <path d="M300 85 L300 315" fill="none" stroke="#FFF8DC" stroke-width="2"/>
+  
+  <!-- Arrow -->
+  <line x1="300" y1="200" x2="600" y2="200" stroke="#CD853F" stroke-width="4"/>
+  
+  <!-- Arrow head -->
+  <path d="M600 200 L580 190 L585 200 L580 210 Z" fill="#8B4513"/>
+  
+  <!-- Arrow fletching -->
+  <path d="M320 200 L300 180 L300 220 Z" fill="#DEB887"/>
+  
+  <!-- Decorative patterns on bow -->
+  <path d="M310 100 Q340 150 310 200" fill="none" stroke="#DAA520" stroke-width="1"/>
+  <path d="M310 200 Q340 250 310 300" fill="none" stroke="#DAA520" stroke-width="1"/>
+  
+  <!-- Sanskrit-inspired decorative elements -->
+  <path d="M350 170 C360 175, 370 175, 380 170" fill="none" stroke="#B8860B" stroke-width="2"/>
+  <path d="M350 230 C360 225, 370 225, 380 230" fill="none" stroke="#B8860B" stroke-width="2"/>
+  
+  <!-- Small decorative circles -->
+  <circle cx="300" cy="85" r="5" fill="#DAA520"/>
+  <circle cx="300" cy="315" r="5" fill="#DAA520"/>
+</svg>
