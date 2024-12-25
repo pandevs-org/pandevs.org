@@ -1,32 +1,29 @@
 #home {
-    height: 100vh;
-    width: 100vw;
+	height: 100vh;
+	width: 100vw;
+	position: relative;
 	background-color: var(--clr-accent-300);
 	background-image: url(../assets/images/1234.png);
 	background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+	background-size: cover;
+	background-position: center;
 }
 
 .home-heading {
-    font-family: 'saman';
-    color: white;
-    font-size: 2.5rem;
-}
-
-.home-content {
-    width: 30vw;
-}
-.home-info {
-    font-family: 'yatra one';
-    font-size: 1.2rem;
-    color: white;
+	font-family: 'saman';
+	color: black;
+	position: absolute;
+	top: 35%;
+	transform: translateY(-50%);
+	/* mask-image: linear-gradient(transparent, black 100%, black 80%, transparent 100%); */
+	-webkit-mask-image: linear-gradient(transparent, black 0%, black 10%, transparent 78%);
+	font-size: 10rem;
 }
 
 .scroll-down-arrow span {
 	width: 20px;
 	height: 20px;
-  display: block;
+	display: block;
 	border-right: 2px solid #fff;
 	border-bottom: 2px solid #fff;
 	transform: rotate(45deg);
@@ -46,10 +43,12 @@
 	0% {
 		opacity: 0;
 	}
+
 	50% {
 		opacity: 1;
 		transform: rotate(45deg) translate(10px, 10px);
 	}
+
 	100% {
 		opacity: 0;
 	}

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- Desert Sky Background -->
+
+  <rect width="800" height="600" fill="url(#desertSky)"/>
+  
+  <!-- Desert Ground -->
+  <rect x="100" y="600" width="600" height="100" fill="black"/>
+  
+  <!-- Main Structure -->
+  <path d="M 100 300 
+           L 700 300 
+           L 700 500 
+           L 100 500 Z" 
+        fill="black"/>
+  
+  <!-- Towers -->
+  <g id="towers">
+    <!-- Left Tower -->
+    <path d="M 100 200 
+             L 200 200 
+             L 200 500 
+             L 100 500 Z" 
+          fill="#black"/>
+    
+    <!-- Center Tower -->
+    <path d="M 350 150 
+             L 450 150 
+             L 450 500 
+             L 350 500 Z" 
+          fill="#black"/>
+    
+    <!-- Right Tower -->
+    <path d="M 600 200 
+             L 700 200 
+             L 700 500 
+             L 600 500 Z" 
+          fill="#black"/>
+  </g>
+  
+  <!-- Battlements -->
+  <path d="M 100 200 
+           L 100 180 L 120 180 L 120 200 
+           L 140 200 L 140 180 L 160 180 L 160 200
+           L 180 200 L 180 180 L 200 180 L 200 200" 
+        fill="#88340B"/>
+        
+  <path d="M 350 150 
+           L 350 130 L 370 130 L 370 150 
+           L 390 150 L 390 130 L 410 130 L 410 150
+           L 430 150 L 430 130 L 450 130 L 450 150" 
+        fill="#88340B"/>
+        
+  <path d="M 600 200 
+           L 600 180 L 620 180 L 620 200 
+           L 640 200 L 640 180 L 660 180 L 660 200
+           L 680 200 L 680 180 L 700 180 L 700 200" 
+        fill="#88340B"/>
+  
+  <!-- Windows and Arrow Slits -->
+  <g id="openings" fill="#F68D33">
+    <rect x="130" y="250" width="40" height="60"/>
+    <rect x="380" y="200" width="40" height="60"/>
+    <rect x="630" y="250" width="40" height="60"/>
+    <rect x="145" y="350" width="10" height="40"/>
+    <rect x="395" y="350" width="10" height="40"/>
+    <rect x="645" y="350" width="10" height="40"/>
+  </g>
+  
+  <!-- Main Gate -->
+  <path d="M 375 400 
+           A 25 25 0 0 1 425 400
+           L 425 500 
+           L 375 500 Z" 
+        fill="#E5C14F"/>
+  
+  <!-- Decorative Elements -->
+  <g id="decorations" fill="#F68D33">
+    <circle cx="150" cy="190" r="5"/>
+    <circle cx="400" cy="140" r="5"/>
+    <circle cx="650" cy="190" r="5"/>
+  </g>
+</svg>

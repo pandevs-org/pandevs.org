@@ -72,46 +72,6 @@ nav {
 	transform: translateX(0);
 }
 
-/* fork btn */
-.fork-btn {
-	appearance: none;
-	background-color: #F68D33;
-	border: none;
-	border-radius: 7px;
-	box-sizing: border-box;
-	color: white;
-	cursor: pointer;
-	display: inline-block;
-	font-size: 16px;
-	line-height: normal;
-	margin: 4px;
-    margin-left: 18px;
-	height: 35px;
-	width: 50px;
-	outline: none;
-	text-align: center;
-	text-decoration: none;
-	transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-	user-select: none;
-	-webkit-user-select: none;
-	touch-action: manipulation;
-	will-change: transform;
-}
-
-.fork-btn:disabled {
-	pointer-events: none;
-}
-
-.fork-btn:hover {
-	box-shadow: rgba(78, 186, 191, 0.25) 0 8px 15px;
-	transform: translateY(-2px);
-}
-
-.fork-btn:active {
-	box-shadow: none;
-	transform: translateY(0);
-}
-
 /* media query */
 @media (max-width: 1200px) {
 	.navbar-scrolled {

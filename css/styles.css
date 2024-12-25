@@ -40,3 +40,40 @@ g {
     background-color: #4f2e25;
     opacity: 0.9;
 }
+
+.section {
+    width: 100%;
+}
+
+.content {
+    width: 80%;
+}
+
+.section-secondary {
+    background-color: black;
+}
+
+.section-heading {
+}
+
+.section-sub-heading {
+    font-family: 'yatra one';
+    color: #F68D33;
+}
+
+.email-text {
+    font-family: 'yatra one';
+    margin-left: 10px;
+    color: #F68D33;
+}
+
+.social-links-logo {
+    background-color: white;
+    border-radius: 12px;
+}
+
+.section-divider {
+    width: 100vw;
+    height: 40px;
+    background-image: url(../assets/sectionDivisionSvg/desert-fort.svg);
+}
