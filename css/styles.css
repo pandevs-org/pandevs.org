@@ -1,29 +1,30 @@
-
-a{
+a {
     text-decoration: none !important;
 }
 
 @font-face {
     font-family: 'saman';
     src: URL('../assets/fonts/SAMAN___.ttf') format('truetype');
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: 'yatra one';
     src: URL('../assets/fonts/YatraOne-Regular.ttf') format('truetype');
-  }
+}
 
 body {
-	/* background-color: var(--clr-accent-300);
+    /* background-color: var(--clr-accent-300);
 	background-image: url(../assets/images/1234.png);
 	background-repeat: no-repeat;
     background-size: cover;
     background-position: center; */
 }
+
 .arrow-svg {
     width: 20vw;
     overflow: visible
 }
+
 /* 
 g {
     overflow:  hidden;
@@ -53,27 +54,41 @@ g {
     background-color: black;
 }
 
-.section-heading {
-}
+.section-heading {}
 
 .section-sub-heading {
     font-family: 'yatra one';
-    color: #F68D33;
+    color: #E5C14F;
 }
 
 .email-text {
     font-family: 'yatra one';
     margin-left: 10px;
+    text-decoration: none;
+    color: #E5C14F;
+}
+
+.email-text:hover {
     color: #F68D33;
 }
 
 .social-links-logo {
-    background-color: white;
-    border-radius: 12px;
+    background-color: #E5C14F;
+    color: black;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.social-links-logo:hover {
+    background-color: #F68D33;
+}
+
+.social-links:not(:first-of-type) {
+    margin-left: 15px;
 }
 
 .section-divider {
-    width: 100vw;
     height: 40px;
+    width: 100%;
     background-image: url(../assets/sectionDivisionSvg/desert-fort.svg);
 }

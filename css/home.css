@@ -1,6 +1,6 @@
 #home {
 	height: 100vh;
-	width: 100vw;
+	width: 100%;
 	position: relative;
 	background-color: var(--clr-accent-300);
 	background-image: url(../assets/images/1234.png);
@@ -15,7 +15,7 @@
 	position: absolute;
 	top: 35%;
 	transform: translateY(-50%);
-	/* mask-image: linear-gradient(transparent, black 100%, black 80%, transparent 100%); */
+	mask-image: linear-gradient(transparent, black 0%, black 10%, transparent 78%);
 	-webkit-mask-image: linear-gradient(transparent, black 0%, black 10%, transparent 78%);
 	font-size: 10rem;
 }

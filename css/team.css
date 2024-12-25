@@ -1,8 +1,51 @@
-.project-outer-div {
+.pandevs-outer-div {
     max-width: 280px;
+    border-radius: 20px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
-.project-div {
+/* box-shadows
+.pandevs-shadow-top-left {
+    box-shadow: rgba(229, 193, 79, 0.4) -5px -5px,
+    rgba(229, 193, 79, 0.3) -10px -10px, 
+    rgba(229, 193, 79, 0.2) -15px -15px, 
+    rgba(229, 193, 79, 0.1) -20px -20px, 
+    rgba(229, 193, 79, 0.05) -25px -25px;
+}
+
+.pandevs-shadow-top-middle {
+    box-shadow: rgba(229, 193, 79, 0.4) 0px -5px, 
+    rgba(229, 193, 79, 0.3) 0px -10px, 
+    rgba(229, 193, 79, 0.2) 0px -15px, 
+    rgba(229, 193, 79, 0.1) 0px -20px, 
+    rgba(229, 193, 79, 0.05) 0px -25px;
+}
+
+.pandevs-shadow-top-right {
+    box-shadow: rgba(229, 193, 79, 0.4) 5px -5px, 
+    rgba(229, 193, 79, 0.3) 10px -10px, 
+    rgba(229, 193, 79, 0.2) 15px -15px, 
+    rgba(229, 193, 79, 0.1) 20px -20px, 
+    rgba(229, 193, 79, 0.05) 25px -25px;
+}
+
+.pandevs-shadow-bottom-left {
+    box-shadow: rgba(229, 193, 79, 0.4) -5px 5px, 
+    rgba(229, 193, 79, 0.3) -10px 10px, 
+    rgba(229, 193, 79, 0.2) -15px 15px, 
+    rgba(229, 193, 79, 0.1) -20px 20px, 
+    rgba(229, 193, 79, 0.05) -25px 25px;
+}
+
+.pandevs-shadow-bottom-right {
+    box-shadow: rgba(229, 193, 79, 0.4) 5px 5px, 
+    rgba(229, 193, 79, 0.3) 10px 10px, 
+    rgba(229, 193, 79, 0.2) 15px 15px, 
+    rgba(229, 193, 79, 0.1) 20px 20px, 
+    rgba(229, 193, 79, 0.05) 25px 25px;
+}  */
+
+.pandevs-div {
     background: #88340B;
 }
 .dharma-chakra-border {
@@ -19,7 +62,7 @@
     padding: 0 !important;
 }
 
-.project-heading {
+.pandevs-heading {
     color: var(--clr-accent-700);
     /* font-weight: var(--fw-semi-bold); */
     font-family: 'yatra one';
