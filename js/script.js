@@ -1,9 +1,11 @@
 setTimeout(function () {
     document.querySelector('.main').classList.remove("d-none");
-    document.querySelector('.reveal').classList.add('d-none')
-    document.querySelector('body').style.setProperty('background-image', 'none')
-    document.querySelector('body').style.setProperty('overflow-y', 'auto')
-
+    document.querySelector('.loader').classList.add('d-none')
+    document.body.style.cssText = `
+    background-image: none;
+    background-color: #5A382C;
+    overflow-y: auto;
+  `;
 }, 2900);
 
 const t1 = gsap.timeline({ default: { ease: 'power4.out', duration: 5 } })
@@ -32,9 +34,15 @@ t1
         opacity: 0,
         duration: 0.2
     }, "-=2.6")
-    .to('.reveal', {
+    .to('.loader', {
         scaleY: 0,
         transformOrigin: 'top',
         duration: 1,
         ease: 'power4,inOut'
     }, "-=2.6")
+    .from('.home-heading', {
+        yPercent: -50,
+        stagger: .03,
+        scaleY: 0.5,
+        opacity: 0
+    }, "-=0.5")

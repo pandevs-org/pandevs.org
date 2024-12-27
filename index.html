@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/home.css">
-    <link rel="stylesheet" href="./css/team.css">
+    <link rel="stylesheet" href="./css/the-pandevs.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <!-- Bootstrap cdn-->
@@ -21,17 +22,11 @@
 
 </head>
 
-<body class="" style="background-color: #5A382C;">
+<body>
 
-    <div class="reveal">
-
-
+    <div class="loader">
         <svg class="arrow-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
-            <!-- Background decorative circle -->
-            <!-- <circle cx="400" cy="200" r="180" fill="none" stroke="#B8860B" stroke-width="4" stroke-dasharray="4,4"/> -->
-
             <g>
-
                 <!-- Bow -->
                 <g id="bow">
                     <path d="M80 320 Q200 200 320 320" fill="none" stroke="#8B4513" stroke-width="8" />
@@ -50,10 +45,6 @@
                     <circle cx="315" cy="320" r="9" fill="#DAA520" />
                 </g>
 
-
-                <!-- Bowstring -->
-                <!-- <path id="bowstring" d="M300 85 L300 315" fill="none" stroke="#FFF8DC" stroke-width="5" /> -->
-
                 <g id="arrow">
                     <!-- Arrow shaft -->
                     <line x1="200" y1="300" x2="200" y2="70" stroke="#CD853F" stroke-width="7" />
@@ -64,16 +55,14 @@
                     <!-- Arrow fletching -->
                     <path d="M200 290 L180 320 L220 320 Z" fill="#DEB887" />
                 </g>
-
             </g>
-
         </svg>
     </div>
 
     <div class="main d-none">
 
         <!-- navbar -->
-        <nav class="navbar d-none navbar-expand-lg fixed-top navbar-unscrolled">
+        <nav class="navbar d-none navbar-expand-lg fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <!-- <img src="/public/content/logo.webp" class="logo rounded-circle" style="" alt="rumblesheet logo"> -->
@@ -92,7 +81,7 @@
                         <a class="nav-link" aria-label="home link" aria-current="page" href="#">Home</a>
                         <a class="nav-link" aria-label="get started link" href="#">Our Quest</a>
                         <a class="nav-link" aria-label="examples link" href="#">The Pandava Code</a>
-                        <a class="nav-link" aria-label="contribute link" href="#the-pandevs">The Pandevs</a>
+                        <a class="nav-link" aria-label="contribute link" href="#the-pandevs-section">The Pandevs</a>
                         <a class="nav-link" aria-label="contribute link" href="#">Connect with Us</a>
                     </div>
                 </div>
@@ -107,7 +96,7 @@
             </h1>
 
             <div class="scroll-down-arrow-div mb-5">
-                <a href="#demo">
+                <a href="#the-pandevs-section">
                     <div class="scroll-down-arrow">
                         <span></span>
                         <span></span>
@@ -119,16 +108,10 @@
 
 
         <!-- the pandevs section -->
-        <section id="the-pandevs"
-            class="section section-primary d-flex justify-content-center align-items-center pt-5 pb-5" style="  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), #5A382C);
-        background-size: 100% 30px;
-        background-repeat: no-repeat;">
+        <section id="the-pandevs-section" class="section section-primary pt-5 pb-5">
 
             <div class="content content-primary">
-                <h3 class="section-heading text-center mt-3" style="font-family: 'saman'; font-size: 2.5rem; 
-                color: F68D33;    
-                text-shadow: 
-                    1px 3px 0px rgba(0, 0, 0, 0.4);">The Pandevs</h3>
+                <h3 class="section-heading mt-3">The Pandevs</h3>
 
                 <div class="row mb-5">
                     <!-- aashish -->
@@ -137,8 +120,9 @@
                             <div class="card-body pandevs-div dharma-chakra-border" data-aos="fade-up"
                                 data-aos-delay="200">
 
-                                <figure class="project-figure  d-flex justify-content-center">
-                                    <img src="./assets/pandevsImages/boris.png" class="project-img" alt="MPT project">
+                                <figure class="pandevs-profile-figure  d-flex justify-content-center">
+                                    <img src="./assets/pandevsImages/boris.png" class="pandevs-profile-img"
+                                        alt="Aashish Kumar Image">
                                 </figure>
 
                                 <div class="row pt-2">
@@ -148,6 +132,7 @@
                                         </h4>
                                     </div>
                                 </div>
+
                                 <div class="row mt-4">
 
                                     <div class="col-3 d-flex justify-content-center align-items-center">
@@ -200,8 +185,9 @@
                             <div class="card-body pandevs-div dharma-chakra-border" data-aos="fade-up"
                                 data-aos-delay="200">
 
-                                <figure class="project-figure  d-flex justify-content-center">
-                                    <img src="./assets/pandevsImages/boris.png" class="project-img" alt="MPT project">
+                                <figure class="pandevs-profile-figure  d-flex justify-content-center">
+                                    <img src="./assets/pandevsImages/boris.png" class="pandevs-profile-img"
+                                        alt="Aditya Rane Image">
                                 </figure>
 
                                 <div class="row pt-2">
@@ -211,6 +197,7 @@
                                         </h4>
                                     </div>
                                 </div>
+
                                 <div class="row mt-4">
 
                                     <div class="col-3 d-flex justify-content-center align-items-center">
@@ -263,8 +250,9 @@
                             <div class="card-body pandevs-div dharma-chakra-border" data-aos="fade-up"
                                 data-aos-delay="200">
 
-                                <figure class="project-figure  d-flex justify-content-center">
-                                    <img src="./assets/pandevsImages/boris.png" class="project-img" alt="MPT project">
+                                <figure class="pandevs-profile-figure  d-flex justify-content-center">
+                                    <img src="./assets/pandevsImages/boris.png" class="pandevs-profile-img"
+                                        alt="Boris Edison Image">
                                 </figure>
 
                                 <div class="row pt-2">
@@ -326,8 +314,9 @@
                             <div class="card-body pandevs-div dharma-chakra-border" data-aos="fade-up"
                                 data-aos-delay="200">
 
-                                <figure class="project-figure  d-flex justify-content-center">
-                                    <img src="./assets/pandevsImages/boris.png" class="project-img" alt="MPT project">
+                                <figure class="pandevs-profile-figure  d-flex justify-content-center">
+                                    <img src="./assets/pandevsImages/boris.png" class="pandevs-profile-img"
+                                        alt="Rohan Singh Image">
                                 </figure>
 
                                 <div class="row pt-2">
@@ -389,8 +378,9 @@
                             <div class="card-body pandevs-div dharma-chakra-border" data-aos="fade-up"
                                 data-aos-delay="200">
 
-                                <figure class="project-figure  d-flex justify-content-center">
-                                    <img src="./assets/pandevsImages/boris.png" class="project-img" alt="MPT project">
+                                <figure class="pandevs-profile-figure  d-flex justify-content-center">
+                                    <img src="./assets/pandevsImages/boris.png" class="pandevs-profile-img"
+                                        alt="Shivendra Pandey Image">
                                 </figure>
 
                                 <div class="row pt-2">
@@ -450,82 +440,79 @@
 
             </div>
 
-
         </section>
 
 
         <div class="section-divider"></div>
 
-        <section id="connect-with-us-section"
-            class="section section-secondary d-flex justify-content-center align-items-center pt-5">
-            <div class="content content-primary">
-                <h3 class="section-heading text-center mt-3" style="font-family: 'saman'; 
-                font-size: 2.5rem; color: F68D33;    
-                text-shadow:
-                    1px 3px 0px rgba(246, 141, 51, 0.3);">Connect with us</h3>
+        <section id="connect-with-us-section" class="section section-secondary pt-5">
+            <div class="content content-secondary">
+                <h3 class="section-heading text-center mt-3">Connect with us</h3>
                 <div class="row mt-5">
-                    <div class="col-6">
-                        <div class="col-12 d-flex justify-content-start align-items-center">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h4 class="section-sub-heading mb-0" style="font-family: 'saman'; color: #F68D33;">
-                                        Pandevs.org</h4>
-
-                                </div>
-                                <div class="col-12">
-                                    <p class="mt-2"
-                                        style="color: #E5C14F; font-family: 'yatra one'; text-align: justify; width: 450px;">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos cumque
-                                        velit at. Ipsa similique quis cumque sapiente. Rem, explicabo odio.</p>
-                                </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="row">
+                            <div class="col-12">
+                                <h4 class="section-sub-heading mb-0">
+                                    Pandevs.org</h4>
+                            </div>
+                            <div class="col-12">
+                                <p class="mt-2 about-us-text">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos cumque
+                                    velit at. Ipsa similique quis cumque sapiente. Rem, explicabo odio.</p>
                             </div>
                         </div>
-
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="row">
-                            <div class="col-12 d-flex justify-content-end align-items-center">
-                                <h6 class="section-sub-heading d-inline mb-0"> Email: </h6>
+                            <div class="col-12 text-end">
+                                <h4 class="section-sub-heading"> Email</h4>
                                 <a class="email-text" href="mailto:borisedison@gmail.com"
                                     aria-label="mail link">opensource@pandevs.org</a>
                             </div>
 
-                            <div class="col-12 mt-3 d-flex align-items-center justify-content-end">
-                                <a class="social-links" href="https://github.com/BorisEdison" aria-label="github link"
-                                    target="_blank">
-                                    <span class="iconify social-links-logo" data-icon="ri:github-fill" data-width="45"
-                                        data-height="45"></span>
-                                </a>
-
-                                <a class="social-links" href="https://www.linkedin.com/in/borisedison/"
-                                    aria-label="linkedin link" target="_blank">
-                                    <span class="iconify social-links-logo" data-icon="ic:sharp-discord" data-width="45"
-                                        data-height="45"></span>
-                                </a>
-
-                                <a class="social-links" href="https://www.linkedin.com/in/borisedison/"
-                                    aria-label="linkedin link" target="_blank">
-                                    <span class="iconify social-links-logo" data-icon="mdi:linkedin" data-width="45"
-                                        data-height="45"></span>
-                                </a>
-
-                                <a class="social-links " href="https://www.instagram.com/_boris_edison_/"
-                                    aria-label="instagram link" target="_blank">
-                                    <span class="iconify social-links-logo" data-icon="fa6-brands:x-twitter"
-                                        data-width="45" data-height="45"></span>
-                                </a>
-
-                                <a class="social-links" href="https://www.instagram.com/_boris_edison_/"
-                                    aria-label="instagram link" target="_blank">
-                                    <span class="iconify social-links-logo" data-icon="ri:instagram-line"
-                                        data-width="45" data-height="45"></span>
-                                </a>
+                            <div class="col-12 mt-3">
+                                <div class="row">
+                                    <div class="col-12 text-end">
+                                        <h4 class="section-sub-heading"> Get in Touch</h4>
+                                    </div>
+                                    <div class="col-12 d-flex align-items-center justify-content-end">
+                                        <a class="social-links" href="https://github.com/BorisEdison" aria-label="github link"
+                                            target="_blank">
+                                            <span class="iconify social-links-logo" data-icon="ri:github-fill" data-width="45"
+                                                data-height="45"></span>
+                                        </a>
+        
+                                        <a class="social-links" href="https://www.linkedin.com/in/borisedison/"
+                                            aria-label="linkedin link" target="_blank">
+                                            <span class="iconify social-links-logo" data-icon="ic:sharp-discord" data-width="45"
+                                                data-height="45"></span>
+                                        </a>
+        
+                                        <a class="social-links" href="https://www.linkedin.com/in/borisedison/"
+                                            aria-label="linkedin link" target="_blank">
+                                            <span class="iconify social-links-logo" data-icon="mdi:linkedin" data-width="45"
+                                                data-height="45"></span>
+                                        </a>
+        
+                                        <a class="social-links " href="https://www.instagram.com/_boris_edison_/"
+                                            aria-label="instagram link" target="_blank">
+                                            <span class="iconify social-links-logo" data-icon="fa6-brands:x-twitter"
+                                                data-width="45" data-height="45"></span>
+                                        </a>
+        
+                                        <a class="social-links" href="https://www.instagram.com/_boris_edison_/"
+                                            aria-label="instagram link" target="_blank">
+                                            <span class="iconify social-links-logo" data-icon="ri:instagram-line"
+                                                data-width="45" data-height="45"></span>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 d-flex justify-content-center align-items-center mt-5 mb-2">
-                        <p href="#" style="font-family: 'yatra one'; color: F68D33;">© 2025, pandevs.org</p>
+                        <p class="footer-contrib-text">© 2025, pandevs.org</p>
                     </div>
 
                 </div>
@@ -535,7 +522,6 @@
         </section>
 
     </div>
-
 
     <!-- gsap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
