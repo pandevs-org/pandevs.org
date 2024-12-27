@@ -3,12 +3,14 @@
     font-family: 'yatra one'; 
     text-align: justify; 
     max-width: 450px;
+    font-size: var(--fs-200);
 }
 .email-text {
     font-family: 'yatra one';
     margin-left: 10px;
     text-decoration: none;
     color: var(--clr-accent-300);
+    font-size: var(--fs-200);
 }
 
 .email-text:hover {
@@ -20,6 +22,8 @@
     color: var(--clr-accent-970);
     border-radius: 50%;
     padding: 3px;
+    height: 45px;
+    width: 45px;
 }
 
 .social-links-logo:hover {
@@ -33,4 +37,49 @@
 .footer-contrib-text {
     font-family: 'yatra one'; 
     color: var(--clr-accent-700);
+    font-size: var(--fs-200);
 }
+
+/* media query */
+@media (max-width: 1200px) {
+	.home-heading {
+		font-size: var(--fs-900);
+	}
+    .social-links-logo {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media (max-width: 993px) {}
+
+@media (max-width: 945px) {}
+
+@media (max-width: 780px) {
+	.home-heading {
+		font-size: var(--fs-800);
+	}
+    .about-us-text {
+        font-size: var(--fs-150);
+    }
+    .email-text {
+        font-size: var(--fs-150);
+    }
+    .footer-contrib-text {
+        font-size: var(--fs-150);
+    }
+}
+
+@media (max-width: 550px) {
+	.home-heading {
+		font-size: var(--fs-650);
+	}
+    .footer-contrib-text {
+        font-size: var(--fs-100);
+    }
+    .footer-contrib-text {
+        font-size: var(--fs-100);
+    }
+}
+
+@media (max-height: 820px) {}
