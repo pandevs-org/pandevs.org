@@ -11,21 +11,21 @@
 
 .home-heading {
 	font-family: 'saman';
-	color: black;
+	color: var(--clr-accent-970);
 	position: absolute;
 	top: 35%;
 	transform: translateY(-50%);
 	mask-image: linear-gradient(transparent, black 0%, black 10%, transparent 78%);
 	-webkit-mask-image: linear-gradient(transparent, black 0%, black 10%, transparent 78%);
-	font-size: 10rem;
+	font-size: var(--fs-950);
 }
 
 .scroll-down-arrow span {
 	width: 20px;
 	height: 20px;
 	display: block;
-	border-right: 2px solid #fff;
-	border-bottom: 2px solid #fff;
+	border-right: 2px solid var(--clr-accent-100);
+	border-bottom: 2px solid var(--clr-accent-100);
 	transform: rotate(45deg);
 	margin: -10px;
 	animation: animate 2s infinite;
