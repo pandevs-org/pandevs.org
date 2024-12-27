@@ -53,3 +53,28 @@
 		opacity: 0;
 	}
 }
+
+/* media query */
+@media (max-width: 1200px) {
+	.home-heading {
+		font-size: var(--fs-900);
+	}
+}
+
+@media (max-width: 993px) {}
+
+@media (max-width: 945px) {}
+
+@media (max-width: 780px) {
+	.home-heading {
+		font-size: var(--fs-800);
+	}
+}
+
+@media (max-width: 550px) {
+	.home-heading {
+		font-size: var(--fs-650);
+	}
+}
+
+@media (max-height: 820px) {}
