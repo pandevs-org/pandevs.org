@@ -12,7 +12,7 @@
 }
 
 .email-text:hover {
-    color: var(--clr-accent-700);
+    color: var(--clr-accent-400);
 }
 
 .social-links-logo {
@@ -23,7 +23,7 @@
 }
 
 .social-links-logo:hover {
-    background-color: var(--clr-accent-700);
+    background-color: var(--clr-accent-400);
 }
 
 .social-links:not(:first-of-type) {

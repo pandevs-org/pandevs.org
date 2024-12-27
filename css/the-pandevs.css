@@ -68,7 +68,7 @@
     font-family: 'yatra one';
     color: var(--clr-accent-300);
     opacity: 1.5;
-    font-size: var(--fs-300);
+    font-size: var(--fs-200);
 }
 
 .pandevs-profile-img {
@@ -88,7 +88,7 @@
     /* box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; */
 }
 
-.project-info {
+.pandevs-info {
     color: var(--clr-info);
     opacity: 0.6;
     font-size: var(--fs-150);
@@ -100,7 +100,7 @@
 }
 
 .iconify-redirect-icon:hover {
-    color: var(--clr-accent-700);
+    color: var(--clr-accent-400);
 }
 
 
