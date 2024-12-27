@@ -1,5 +1,5 @@
 #the-pandevs-section {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), #5A382C);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), var(--clr-accent-930));
     background-size: 100% 30px;
     background-repeat: no-repeat;
 }
@@ -52,7 +52,7 @@
 }  */
 
 .pandevs-div {
-    background: #88340B;
+    background: var(--clr-accent-850);
 }
 
 .dharma-chakra-border {
@@ -66,7 +66,7 @@
     color: var(--clr-accent-700);
     /* font-weight: var(--fw-semi-bold); */
     font-family: 'yatra one';
-    color: #E5C14F;
+    color: var(--clr-accent-300);
     opacity: 1.5;
     font-size: var(--fs-300);
 }
@@ -76,7 +76,7 @@
     transition: .5s ease-in-out;
     width: 180px;
     border-radius: 50%;
-    border: 5px solid #E5C14F;
+    border: 5px solid var(--clr-accent-300);
     /* box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; */
     /* border-radius: 15px; */
     /* border: 2px solid var(--clr-accent-700); */
@@ -96,7 +96,7 @@
 }
 
 .iconify-redirect-icon {
-    color: #E5C14F;
+    color: var(--clr-accent-300);
 }
 
 .iconify-redirect-icon:hover {

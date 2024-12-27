@@ -1,3 +1,4 @@
+@import url(./globals.css);
 @font-face {
     font-family: 'saman';
     src: URL('../assets/fonts/SAMAN___.ttf') format('truetype');
@@ -9,7 +10,7 @@
 }
 
 body {
-    background-color: #5A382C;
+    background-color: var(--clr-accent-930);
     background-image: url(../assets/images/1234.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,7 +44,7 @@ g {
     align-items: end;
     justify-content: center;
     z-index: -1;
-    background-color: #4f2e25;
+    background-color: var(--clr-accent-950);
     opacity: 0.9;
 }
 
@@ -55,7 +56,7 @@ g {
     align-items: center;
 }
 .section-secondary {
-    background-color: black;
+    background-color: var(--clr-accent-970);
 }
 .content {
     width: 80%;
@@ -66,18 +67,18 @@ g {
     text-align: center;
 }
 .content-primary > .section-heading {
-    color: #F68D33;
+    color: var(--clr-accent-700);
     text-shadow:
         1px 3px 0px rgba(0, 0, 0, 0.4);
 }
 .content-secondary > .section-heading {
-    color: #F68D33;    
+    color: var(--clr-accent-700);    
     text-shadow:
         1px 3px 0px rgba(246, 141, 51, 0.3);
 }
 .section-sub-heading {
     font-family: 'yatra one';
-    color: #F68D33;
+    color: var(--clr-accent-700);
 }
 .section-divider {
     height: 40px;
@@ -88,8 +89,8 @@ g {
 
 /* scrollbar */
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(78, 186, 191, 0.3);
-    background-color: var(--clr-accent-300);
+    -webkit-box-shadow: inset 0 0 6px rgba(246, 141, 51, 0.3);
+    background-color: var(--clr-accent-930);
 }
 
 ::-webkit-scrollbar {

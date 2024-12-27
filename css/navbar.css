@@ -28,7 +28,7 @@ nav {
 .nav-link {
 	white-space: nowrap;
     font-family: 'saman';
-	color: #F68D33 !important;
+	color: var(--clr-accent-700) !important;
     margin-left: 18px;
     margin-right: 18px;
 	font-size: var(--fs-200) !important;
@@ -37,15 +37,15 @@ nav {
 }
 
 .nav-link.active {
-	color: #F9D453 !important;
+	color: var(--clr-accent-300) !important;
 }
 
 .nav-link:hover {
-	color: #F9D453 !important;
+	color: var(--clr-accent-300) !important;
 }
 
 .nav-link:focus {
-	color: #F9D453 !important;
+	color: var(--clr-accent-300) !important;
 }
 
 /* media query */
