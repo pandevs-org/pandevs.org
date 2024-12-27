@@ -1,0 +1,36 @@
+.about-us-text {
+    color: #E5C14F; 
+    font-family: 'yatra one'; 
+    text-align: justify; 
+    max-width: 450px;
+}
+.email-text {
+    font-family: 'yatra one';
+    margin-left: 10px;
+    text-decoration: none;
+    color: #E5C14F;
+}
+
+.email-text:hover {
+    color: #F68D33;
+}
+
+.social-links-logo {
+    background-color: #E5C14F;
+    color: black;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.social-links-logo:hover {
+    background-color: #F68D33;
+}
+
+.social-links:not(:first-of-type) {
+    margin-left: 15px;
+}
+
+.footer-contrib-text {
+    font-family: 'yatra one'; 
+    color: #F68D33;
+}
