@@ -1,4 +1,5 @@
 @import url(./globals.css);
+
 @font-face {
     font-family: 'saman';
     src: URL('../assets/fonts/SAMAN___.ttf') format('truetype');
@@ -11,7 +12,7 @@
 
 body {
     background-color: var(--clr-accent-930);
-    background-image: url(../assets/images/1234.png);
+    background-image: url(../assets/images/backgroundImage.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -55,36 +56,55 @@ g {
     justify-content: center;
     align-items: center;
 }
+
 .section-secondary {
+    background-color: var(--clr-accent-950);
+    border-top: 3px solid;
+    border-image: linear-gradient(to right, var(--clr-accent-200),var(--clr-accent-700)) 1 0 1 0;
+    border-bottom: 3px solid;
+}
+
+.section-footer {
     background-color: var(--clr-accent-970);
 }
+
 .content {
     width: 80%;
 }
+
 .section-heading {
     font-family: 'saman';
     font-size: var(--fs-500);
     text-align: center;
 }
-.content-primary > .section-heading {
+
+.content-primary>.section-heading {
     color: var(--clr-accent-700);
     text-shadow:
         1px 3px 0px rgba(0, 0, 0, 0.4);
 }
-.content-secondary > .section-heading {
-    color: var(--clr-accent-700);    
+.content-secondary>.section-heading {
+    color: var(--clr-accent-700);
+    text-shadow:
+        1px 3px 0px rgba(0, 0, 0, 0.4);
+}
+
+.content-footer>.section-heading {
+    color: var(--clr-accent-700);
     text-shadow:
         1px 3px 0px rgba(246, 141, 51, 0.3);
 }
+
 .section-sub-heading {
     font-family: 'yatra one';
     color: var(--clr-accent-700);
     font-size: var(--fs-300);
 }
+
 .section-divider {
     height: 40px;
     width: 100%;
-    background-image: url(../assets/sectionDivisionSvg/desert-fort.svg);
+    background-image: url(../assets/svg/fort.svg);
 }
 
 
@@ -119,11 +139,19 @@ g {
     .section-heading {
         font-size: var(--fs-400);
     }
+
     .section-sub-heading {
         font-size: var(--fs-250);
     }
+    .arrow-svg {
+        width: 250px;
+    }
 }
 
-@media (max-width: 550px) {}
+@media (max-width: 550px) {
+    .arrow-svg {
+        width: 200px;
+    }
+}
 
 @media (max-height: 820px) {}
