@@ -1,5 +1,5 @@
 .quests-div {
-    width: 520px;
+    max-width: 520px;
     background: var(--clr-accent-850);
     border-radius: 12px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
@@ -61,7 +61,7 @@
 
 @media (max-width: 550px) {
     .quests-div {
-        max-width: 360px;
+        max-width: 340px;
         border-radius: 10px;
     }
     .quests-figure {
