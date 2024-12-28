@@ -79,15 +79,16 @@
     text-align: center;
 }
 
+.pandevs-profile-figure {
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
 .pandevs-profile-img {
     width: 170px;
     border-radius: 50%;
     border: 5px solid var(--clr-accent-300);
-}
-
-.pandevs-profile-figure {
-    overflow: hidden;
-    margin-bottom: 10px;
 }
 
 .pandevs-info {

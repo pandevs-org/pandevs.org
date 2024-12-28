@@ -89,7 +89,6 @@
     font-family: 'yatra one';
     font-size: var(--fs-200);
     color: var(--clr-accent-200);
-    text-align: justify;
 }
 
 .timeline-join-text {
