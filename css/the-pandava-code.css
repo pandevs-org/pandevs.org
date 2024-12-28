@@ -85,10 +85,11 @@
 }
 
 .timeline-body-text {
-    max-width: 350px;
+    max-width: 400px;
     font-family: 'yatra one';
     font-size: var(--fs-200);
     color: var(--clr-accent-200);
+    text-align: justify;
 }
 
 .timeline-join-text {
@@ -132,7 +133,7 @@
     }
 
     .timeline:before {
-        left: 40px;
+        left: 43px;
     }
 
     .timeline>li {
@@ -176,7 +177,6 @@
     .timeline-image>.img-circle {
         width: 50px;
     }
-
     .timeline-join-text {
         font-size: var(--fs-50);
     }
