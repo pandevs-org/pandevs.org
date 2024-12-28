@@ -5,14 +5,9 @@
 }
 
 .pandevs-outer-div {
-    width: 280px;
-    height: 373px;
-    border-radius: 20px;
+    width: 270px;
+    border-radius: 12px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-}
-
-.pandevs-div {
-    position: relative;
 }
 
 /* box-shadows
@@ -61,7 +56,7 @@
 }
 
 .dharma-chakra-border {
-    border-radius: 20px;
+    border-radius: 12px;
     border: 2rem solid transparent;
     border-image: url(../assets/borderSvgs/dharma-chakra.png) 35% round;
     padding: 0 !important;
@@ -85,21 +80,14 @@
 }
 
 .pandevs-profile-img {
-    -webkit-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-    width: 180px;
+    width: 170px;
     border-radius: 50%;
     border: 5px solid var(--clr-accent-300);
-    /* box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; */
-    /* border-radius: 15px; */
-    /* border: 2px solid var(--clr-accent-700); */
 }
 
 .pandevs-profile-figure {
     overflow: hidden;
-    border-radius: 7px;
     margin-bottom: 10px;
-    /* box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; */
 }
 
 .pandevs-info {
@@ -110,8 +98,8 @@
 }
 
 .pandevs-social-links-div {
-    position: absolute;
-    bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .iconify-redirect-icon {
@@ -132,6 +120,24 @@
 
 @media (max-width: 780px) {}
 
-@media (max-width: 550px) {}
+@media (max-width: 550px) {
+    .pandevs-outer-div {
+        width: 250px;
+        border-radius: 10px;
+    }
+    .dharma-chakra-border {
+        border-radius: 10px;
+    }
+    .pandevs-profile-img {
+        width: 150px;
+    }
+    .pandevs-heading {
+        font-size: var(--fs-150);
+    }
+    
+    .pandevs-sub-heading {
+        font-size: var(--fs-100);
+    }
+}
 
 @media (max-height: 820px) {}
