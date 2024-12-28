@@ -58,7 +58,7 @@
 .dharma-chakra-border {
     border-radius: 12px;
     border: 2rem solid transparent;
-    border-image: url(../assets/borderSvgs/dharma-chakra.png) 35% round;
+    border-image: url(../assets/svg/dharma-chakra.png) 35% round;
     padding: 0 !important;
 }
 
