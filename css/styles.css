@@ -36,9 +36,9 @@ g {
 
 .loader {
     position: relative;
-    height: 100vh;
+    height: 100dvh;
     width: 100%;
-    top: -5vh;
+    top: -5dvh;
     /* 10 for smaller devices */
     left: 0;
     display: flex;
